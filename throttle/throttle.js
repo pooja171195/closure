@@ -1,4 +1,4 @@
-const throttle = (fn, delay) => {
+const throttler = (fn, delay) => {
     let lastCalled = 0;
     return (...args) => {
       let now = new Date().getTime();
@@ -13,8 +13,10 @@ const throttle = (fn, delay) => {
   const printMessage = () => {
     //console.log("");
     let ele = document.getElementById('container');
-    ele.innerHTML = ele.innerHTML+'You have clicked a button';
+ ele.innerHTML = ele.innerHTML+'You have clicked a button';
+ ele.style.color="red";
+
 
 };
   
-  const sayHello = throttle(printMessage,2000);
+  const sayHello = throttler(printMessage,2000);
