@@ -1,14 +1,34 @@
 body{
-    
-    margin-left: 40%;
+  
+    border: 1px solid red;
+    background-color: yellow;
+    height: 600px;
+    box-shadow: 1px 2px;
+    display: -moz-grid-group;
+    align-items: right;
 }
-#sayHello{
+
+.p>div{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    box-shadow: 5px 10px;
     background-color: teal;
     color: black;
     border: 2px solid teal;
-    width: 30%;
-    height: 3%;
+    width: 20%;
+    height: 10%;
     border-radius: 1rem;
-    font: 30 sans-serif;
+    font: 30px sans-serif;
     font-weight: bold;
+}
+h1{
+ margin-left: 45%;
+ box-shadow: 1px 3px;
+    border: 1px solid teal;
+    background-color: aqua;
+    text-align: center;
+    height: 40px;
+    width: 40px;
 }
