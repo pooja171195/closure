@@ -1,0 +1,14 @@
+body{
+    
+    margin-left: 40%;
+}
+#sayHello{
+    background-color: teal;
+    color: black;
+    border: 2px solid teal;
+    width: 30%;
+    height: 3%;
+    border-radius: 1rem;
+    font: 30 sans-serif;
+    font-weight: bold;
+}
