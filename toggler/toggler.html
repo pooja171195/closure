@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+.first {
+color: green;
+}
+.second {
+color: red;
+}
+</style>
+</head>
+<body>
+<div id="demo" class="first">Welcome To Masai School</div>
+<footer>
+<small>Have a Nice Day <a href="https://course.masaischool.com/dashboard">Click Here -></a></small>
+</footer>
+<script>
+function third() {
+this.classList.toggle('first');
+this.classList.toggle('second');
+}
+document.querySelector('#demo').addEventListener('click', third);
+</script>
+</body>
+</html>
